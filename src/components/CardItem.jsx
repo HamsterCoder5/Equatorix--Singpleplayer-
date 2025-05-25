@@ -34,7 +34,7 @@ const CardItem = ({
         className={className} 
         onClick={(e) => {handleClick(e)}}
       >
-        {card.value}
+        {card.value === '/' ? '\u00F7' : card.value === '*' ? '\u00D7' : card.value}
       </button>
       { parent == "field" &&
         <DropZone 
