@@ -1,0 +1,45 @@
+* {
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+  color: black;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(252, 245, 232);
+}
+
+#root {
+  height: 100%;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer {
+  height: 40px;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+  width: 100%;
+}
