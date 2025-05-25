@@ -1,4 +1,4 @@
-import CardItem from './CardItem';
+import CardItem from './CardItem.jsx';
 import { useEffect, useState } from 'react';
 
 const Hand = ({ cards, selectedCard, setSelectedCard, returnTohand }) => {

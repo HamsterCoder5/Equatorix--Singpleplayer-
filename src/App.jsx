@@ -1,8 +1,8 @@
 import './styles/App.css';
-import Hand from './components/Hand';
-import PlayingField from './components/PlayingField';
-import ActionContainer from './components/ActionContainer';
-import VictoryOverlay from './components/VictoryOverlay';
+import Hand from './components/Hand.jsx';
+import PlayingField from './components/PlayingField.jsx';
+import ActionContainer from './components/ActionContainer.jsx';
+import VictoryOverlay from './components/VictoryOverlay.jsx';
 
 import { useState, useEffect } from 'react';
 import { getRandomCard, getHandCards, evaluateExpression } from './utils/utils.js';

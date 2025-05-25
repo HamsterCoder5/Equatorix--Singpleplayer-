@@ -1,4 +1,4 @@
-import DropZone from './DropZone';
+import DropZone from './DropZone.jsx';
 
 const CardItem = ({ 
   parent,

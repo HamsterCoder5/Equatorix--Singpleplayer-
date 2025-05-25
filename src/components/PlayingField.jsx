@@ -1,5 +1,5 @@
-import CardItem from './CardItem';
-import DropZone from './DropZone';
+import CardItem from './CardItem.jsx';
+import DropZone from './DropZone.jsx';
 
 const PlayingField = ({ 
   cards, 
